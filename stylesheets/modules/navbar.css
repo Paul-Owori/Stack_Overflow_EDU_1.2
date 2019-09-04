@@ -1,10 +1,11 @@
 #navbar {
+    position: fixed;
     background: #292b2c;
     color: white;
     display: flex;
     width: 100%;
     padding: 1rem;
-
+    box-shadow: 2px 3px 5px #000000
 }
 
 #logo {
@@ -41,44 +42,81 @@
 
 #dropDownContainer {
     display: none;
+    position: relative;
 }
-.dropDownLinks{
-    display:none;
+
+.dropDownLinks {
+    display: none;
+    position: absolute;
+    top: 1.6rem;
+    right: auto;
+    left: auto;
+    padding: 0rem;
+    width: 90vw;
+    background: #161718;
+    box-shadow: 2px 3px 5px #000000
 }
-.dropDownLinks li{
-    list-style: none;
-    display: block;
+
+.dropDownLinks li {
+    list-style-type: none;
     text-align: left;
-    padding:0.5rem;
+    padding: 0.5rem;
 }
-.dropDownLinks li:hover{
+
+.dropDownLinks li a {
+    text-decoration: none;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+    color: white;
+    list-style-type: none;
+}
+
+.dropDownLinks li:hover {
     background-color: #3c3f41;
     cursor: pointer;
 }
-.dropBtn{
+
+.dropBtn {
     background-color: inherit;
     font-family: inherit;
     color: white;
-    font-size: 1.3rem; 
+    font-size: 1.3rem;
     outline: none;
-        border:none;
+    border: none;
 }
-.dropBtn:hover{
+
+.dropBtn:hover {
     color: #f0ad4e;
 }
-.dropDownContainer:hover .dropDownLinks{
-    display:initial;
+
+#navMenu {
+    display: none;
 }
+
 
 /* Values that will change on smaller screen sizes */
 @media screen and (max-width: 960px) {
     #dropDownContainer {
         display: flex;
-        flex: 7;
+        flex: 5;
         justify-content: flex-end;
-        padding-right:2rem;
+        padding-right: 2rem;
+
     }
-    #links{
-        display:none
+
+    #logo {
+        flex: 7;
+    }
+
+    #links {
+        display: none
+    }
+
+    /* Checked effect toggles dropdown Menu*/
+    #dropDownContainer input:checked~.dropDownLinks {
+        display: block;
+    }
+
+    #dropDownContainer input:checked~.dropBtn {
+        color: #f0ad4e;
     }
 }

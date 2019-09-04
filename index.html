@@ -15,31 +15,51 @@
 </head>
 
 <body>
+    <!-- Navbar -->
     <header id="navbar">
         <span id="logo">Stack-Overflow EDU</span>
+        <!-- Navbar links that appear on large screens -->
         <ul id="links">
             <li>Home</li>
             <li>Login</li>
             <li>View Questions</li>
             <li>Ask a Question</li>
         </ul>
+        <!-- Navbar dropdown menu that appears on smaller screens -->
         <div id="dropDownContainer">
-            <button class="dropBtn">
-
+            <input type="checkbox" name="navMenu" id="navMenu">
+            <label for="navMenu" class="dropBtn">
                 <i class="fas fa-bars"></i>
-            </button>
+            </label>
             <ul class="dropDownLinks">
-                <li>Home</li>
-                <li>Login</li>
-                <li>View Questions</li>
-                <li>Ask a Question</li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">View Questions</a></li>
+                <li><a href="#">Ask a Question</a></li>
             </ul>
         </div>
     </header>
+    <!-- Content -->
     <div id="contentContainer">
-
         <div>
-            <h1>Welcome to StackOverflow-EDU!</h1>
+            <h1 class="">Welcome to StackOverflow-EDU!</h1>
+        </div>
+        <div id="cardContainer">
+            <div class="landing-page-card">
+                <h2 class="landing-page-card-title">Ask Questions.</h2>
+                <p class="landing-page-card-text"></p>
+                <button class="landing-page-card-btn"></button>
+            </div>
+            <div class="landing-page-card">
+                <h2 class="landing-page-card-title">Answer Questions.</h2>
+                <p class="landing-page-card-text"></p>
+                <button class="landing-page-card-btn"></button>
+            </div>
+            <div class="landing-page-card">
+                <h2 class="landing-page-card-title">Create your account now!</h2>
+                <p class="landing-page-card-text">Click here to start contributing now.</p>
+                <button class="landing-page-card-btn"></button>
+            </div>
         </div>
     </div>
 
