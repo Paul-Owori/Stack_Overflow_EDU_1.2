@@ -1,9 +1,11 @@
 #cardContainer {
     display: flex;
     justify-content: space-between;
+    color: white;
 }
 
 .landing-page-card {
+    color: #db8204;
     text-decoration: none;
     flex: 3;
     margin: 1rem;
