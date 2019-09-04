@@ -8,16 +8,17 @@
     box-shadow: 2px 3px 5px #000000
 }
 
-#logo {
+#logo a {
     color: #f1a02f;
     font-size: 1.3rem;
     flex: 4;
     cursor: pointer;
     text-align: left;
     padding-left: 1rem;
+    text-decoration: none;
 }
 
-#logo:hover {
+#logo a:hover {
     color: #ee8b01;
 
 }
@@ -36,7 +37,12 @@
     cursor: pointer;
 }
 
-#links li:hover {
+#links li a {
+    text-decoration: none;
+    color: white;
+}
+
+#links li a:hover {
     color: #f0ad4e;
 }
 
