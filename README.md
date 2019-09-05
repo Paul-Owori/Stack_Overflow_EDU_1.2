@@ -6,6 +6,8 @@ StackOverflow-EDU is an online platform that allows users to ask questions and h
 
 You can see the User Interface templates hosted on [GH-pages](https://paul-owori.github.io/StackOverflow-EDU-2/)
 
+You can also view this app on [Heroku](https://stack-overflow-edu-2.herokuapp.com/)
+
 ## Installation
 
 Clone the repository
