@@ -1,5 +1,7 @@
 # StackOverflow-EDU
 
+Built for OutBox EDU Core Challenge 1.0
+
 StackOverflow-EDU is an online platform that allows users to ask questions and have then answered by other users.
 
 You can see the User Interface templates hosted on [GH-pages](https://paul-owori.github.io/StackOverflow-EDU/)
