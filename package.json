@@ -1,0 +1,23 @@
+{
+  "name": "stackoverflow-edu-2",
+  "version": "1.0.0",
+  "description": "A simple platform where people can ask questions and provide responses",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paul-Owori/StackOverflow-EDU-2.git"
+  },
+  "author": "Paul Owori",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Paul-Owori/StackOverflow-EDU-2/issues"
+  },
+  "homepage": "https://github.com/Paul-Owori/StackOverflow-EDU-2#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
