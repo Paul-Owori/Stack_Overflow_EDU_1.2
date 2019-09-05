@@ -55,7 +55,36 @@
     </header>
 
     <!-- Content -->
-    <div id="contentContainer"></div>
+    <div id="contentContainer">
+        <div id="questionWrapper">
+
+            <h1 id="userAsked">User asked</h1>
+            <h2 id="questionTitle">Why doesnt my code run?</h2>
+
+            <p id="questionText">Could someone help me with this javascript code?
+                I've tried to Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, magni tenetur eveniet
+                rerum quaerat recusandae id aut libero nam asperiores ex iusto labore temporibus corrupti inventore
+                impedit, praesentium voluptas at.
+            </p>
+            <div id="btnContainer">
+
+                <input type="checkbox" name="answerQnCheckbox" id="answerQnCheckbox">
+                <label id="answerQnBtn" for="answerQnCheckbox">Answer this Qn</label>
+            </div>
+        </div>
+        <div id="answersWrapper">
+            <h2 id="answersTitle">Answers:</h2>
+
+        </div>
+        <div id="newAnswerWrapper">
+            <textarea name="" id="" cols="30" rows="15" placeholder="Your answer..."></textarea>
+            <span id="buttonContainer">
+                <button type="reset" value="reset" class="ask-btn" id="resetBtn">Reset</button>
+                <button type="submit" value="submit" class="ask-btn" id="askBtn">Ask</button>
+            </span>
+        </div>
+
+    </div>
 
 
 </body>
