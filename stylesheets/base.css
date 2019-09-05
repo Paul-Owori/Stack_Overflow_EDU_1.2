@@ -28,11 +28,18 @@ button {
     cursor: pointer;
 }
 
+button:focus,
+button:active {
+    outline: none;
+    background: #ff9501;
+
+}
+
 input {
     padding: 0.5rem;
     border: 1px solid gray;
     border-radius: 5px;
-    margin: 1.2rem;
+    margin: 1.1rem;
     font-weight: bold;
 }
 
@@ -44,4 +51,16 @@ h3 {
 
 p {
     text-align: justify;
+}
+
+textarea {
+    border: none;
+    font-weight: bold;
+    width: 100%
+}
+
+textarea:focus,
+textarea:active {
+    border: none;
+    outline: none;
 }
