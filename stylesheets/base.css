@@ -24,14 +24,49 @@ button {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 1px 2px 3px #000000;
+    box-shadow: 1px 2px 5px 0.3px #000000;
     cursor: pointer;
+}
+
+button:hover {
+    outline: none;
+    background: #ff9501;
+
+}
+
+button:focus,
+button:active {
+    outline: none;
+    background: #e08402;
+
 }
 
 input {
     padding: 0.5rem;
     border: 1px solid gray;
     border-radius: 5px;
-    margin: 1.2rem;
+    margin: 1.1rem;
     font-weight: bold;
+}
+
+h1,
+h2,
+h3 {
+    color: #f1a02f;
+}
+
+p {
+    text-align: justify;
+}
+
+textarea {
+    border: none;
+    font-weight: bold;
+    width: 100%
+}
+
+textarea:focus,
+textarea:active {
+    border: none;
+    outline: none;
 }

@@ -17,8 +17,17 @@
     min-height: 10rem
 }
 
+h1 {
+    color: black;
+}
+
 .landing-page-card:hover {
     background: #f1a02f;
+    color: white;
+}
+
+.landing-page-card:hover h2 {
+
     color: white;
 }
 

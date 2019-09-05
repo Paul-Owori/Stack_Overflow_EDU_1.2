@@ -34,17 +34,36 @@
                 <i class="fas fa-bars"></i>
             </label>
             <ul class="dropDownLinks">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="./sign-up.html">Login / Signup</a></li>
-                <li><a href="./view-questions.html">View Questions</a></li>
-                <li><a href="./ask-question.html">Ask a Question</a></li>
-                <li><a href="./about.html">About</a></li>
+                <a href="../index.html">
+                    <li>Home</li>
+                </a>
+                <a href="./sign-up.html">
+                    <li>Login / Signup</li>
+                </a>
+                <a href="./view-questions.html">
+                    <li>View Questions</li>
+                </a>
+                <a href="./ask-question.html">
+                    <li>Ask a Question</li>
+                </a>
+                <a href="./about.html">
+                    <li>About</li>
+                </a>
             </ul>
         </div>
     </header>
 
     <!-- Content -->
-    <div id="contentContainer"></div>
+    <div id="contentContainer">
+        <h1>Ask a question</h1>
+        <form id="questionWrapper">
+            <textarea name="question" id="question" cols="30" rows="15" placeholder="Ask a question..."></textarea>
+            <span id="buttonContainer">
+                <button type="reset" value="reset" class="ask-btn" id="resetBtn">Reset</button>
+                <button type="submit" value="submit" class="ask-btn" id="askBtn">Ask</button>
+            </span>
+        </form>
+    </div>
 
 
 </body>
