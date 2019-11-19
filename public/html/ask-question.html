@@ -18,10 +18,10 @@
     <!-- Navbar -->
     <header id="navbar">
         <!-- Logo -->
-        <span id="logo"><a href="../index.html">Stack-Overflow EDU</a> </span>
+        <span id="logo"><a href="/">Stack-Overflow EDU</a> </span>
         <!-- Navbar links that appear on large screens -->
         <ul id="links">
-            <li><a href="../index.html">Home</a></li>
+            <li><a href="/">Home</a></li>
             <li><a href="./sign-up.html">Login / Signup</a></li>
             <li><a href="./view-questions.html">View Questions</a></li>
             <li><a href="./ask-question.html">Ask a Question</a></li>
@@ -34,7 +34,7 @@
                 <i class="fas fa-bars"></i>
             </label>
             <ul class="dropDownLinks">
-                <a href="../index.html">
+                <a href="/">
                     <li>Home</li>
                 </a>
                 <a href="./sign-up.html">
@@ -54,7 +54,7 @@
     </header>
 
     <!-- Content -->
-    <div id="contentContainer">
+    <div id="contentContainer" class="invisible">
         <h1>Ask a question</h1>
         <form id="questionWrapper">
             <textarea name="question" id="question" cols="30" rows="15" placeholder="Ask a question..."></textarea>
@@ -65,7 +65,10 @@
         </form>
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
+    <script src="../scripts/ask-question.js"></script>
 </body>
 
 </html>
