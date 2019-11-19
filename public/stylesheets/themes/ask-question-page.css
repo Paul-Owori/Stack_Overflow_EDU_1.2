@@ -39,6 +39,11 @@ textarea:focus {
     background: #6d6c6c
 }
 
+/* Invisibility class */
+.invisible{
+    display: none;
+}
+
 /* Values that will change on smaller screen sizes */
 @media screen and (max-width: 960px) {
     #buttonContainer {

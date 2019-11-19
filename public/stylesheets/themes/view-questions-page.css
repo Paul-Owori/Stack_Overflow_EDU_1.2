@@ -41,3 +41,8 @@ h1 {
     text-decoration: none;
     color: white;
 }
+
+/* Invisibility class */
+.invisible{
+    display: none;
+}

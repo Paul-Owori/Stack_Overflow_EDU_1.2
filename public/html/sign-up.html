@@ -54,7 +54,7 @@
     </header>
 
     <!-- Content -->
-    <div id="contentContainer">
+    <div id="contentContainer" class="invisible">
 
 
         <!-- Container for the signup and login forms -->
@@ -63,8 +63,8 @@
             <div id="logInContainer">
                 <h2>Login Now</h2>
                 <form action="#" id="logInForm">
-                    <input type="email" id="email" placeholder="Your email address">
-                    <input type="password" id="password1" placeholder="Your password">
+                    <input type="email" id="loginEmail" placeholder="Your email address">
+                    <input type="password" id="loginPassword" placeholder="Your password">
                     <button type="button" class="submit-button">Submit</button>
                 </form>
             </div>
@@ -78,13 +78,18 @@
                     <input type="text" id="lastName" placeholder="Your last name">
                     <input type="email" id="email" placeholder="Your email address">
                     <input type="password" id="password1" placeholder="Your password">
-                    <input type="password" id="passord2" placeholder="Confirm password">
+                    <input type="password" id="password2" placeholder="Confirm password">
                     <button type="button" class="submit-button">Submit</button>
                 </form>
             </div>
 
         </div>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <script src="../scripts/signup-page.js"></script>
 
 </body>
 

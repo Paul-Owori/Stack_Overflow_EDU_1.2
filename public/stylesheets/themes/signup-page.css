@@ -33,6 +33,11 @@ h2 {
     color: #db8204;
 }
 
+/* Invisibility class */
+.invisible{
+    display: none;
+}
+
 /* Values that will change on smaller screen sizes */
 @media screen and (max-width: 960px) {
     #allFormsContainer {
